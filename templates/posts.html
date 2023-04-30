@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Мой пост</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style1.css') }}"> <!-- Подключаем файл со стилями -->
+</head>
+<body>
+    {% for el in data %}
+	<header>
+		<h1>{{ el[1] }}</h1>
+	</header>
+	<main>
+		<p>{{ el[2] }}</p>
+	</main>
+    {% endfor %}
+</body>
+</html>

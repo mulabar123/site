@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Моя страница с кнопками-ссылками</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"> <!-- Подключаем файл со стилями -->
+</head>
+<body>
+	<h1>Добро пожаловать на мою страницу</h1>
+	<p>Нажмите на одну из кнопок:</p>
+	<a href="/posts"><button id="button1">Посты</button></a>
+	<a href="/add_post"><button id="button2">Добавить пост</button></a>
+</body>
+</html>

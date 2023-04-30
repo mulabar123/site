@@ -1,0 +1,50 @@
+/* Общие стили для всего документа */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+/* Стили для заголовка поста */
+header {
+	background-color: #eee;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	margin-top: 0;
+}
+
+/* Стили для автора поста */
+.author {
+	margin-bottom: 0;
+	font-style: italic;
+}
+
+/* Стили для изображения поста */
+main img {
+	display: block;
+	margin: 20px auto;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Стили для текста поста */
+main p {
+	margin: 0 0 20px;
+}
+
+/* Стили для даты публикации */
+footer {
+	background-color: #eee;
+	padding: 10px;
+	text-align: center;
+}
+
+.date {
+	margin-bottom: 0;
+}
